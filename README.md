@@ -91,6 +91,13 @@ document.getElementById('convertBtn').addEventListener('click', function() {
 - **GIF Conversion**: The above code converts a single WEBP image to a static GIF. For animated GIFs, you would need a more complex solution involving libraries like `gif.js`.
 - **Browser Support**: Ensure that the browser supports the WEBP format and the `<canvas>` element.
 
+
+- https://github.com/convert-apps/avif-to-jpg-png-webp
+- https://github.com/convert-apps/webp-to-png-jpg-gif
+- https://github.com/convert-apps/jpg-to-png-webp-jpeg
+- https://github.com/convert-apps/png-to-jpg-webp-ico
+- https://github.com/convert-apps/gif-to-jpg-png-webp  
+
 ### 5. Libraries for Advanced Features
 For more advanced features (e.g., animated GIFs, batch conversion), consider using libraries like:
 - **gif.js**: For creating animated GIFs.
