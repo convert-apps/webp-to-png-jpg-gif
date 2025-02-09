@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEBP to JPG/PNG/GIF Converter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #preview {
+            max-width: 100%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>WEBP to JPG/PNG/GIF Converter</h1>
+    <input type="file" id="webpInput" accept=".webp" />
+    <select id="format">
+        <option value="jpg">JPG</option>
+        <option value="png">PNG</option>
+        <option value="gif">GIF</option>
+    </select>
+    <button id="convertBtn">Convert</button>
+    <div id="preview"></div>
+    <a id="downloadLink" style="display:none;">Download</a>
+
+    <script src="converter.js"></script>
+</body>
+</html>
